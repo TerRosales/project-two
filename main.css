@@ -344,7 +344,6 @@ a:visited {
 
 .bottomlogo {
     display: grid;
-    opacity: 0;
     /*can be interchangable with HTML <img>
     background-image: url('https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/364091519_10046523365372687_3186702686938550041_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=jexfNrZfQPQAX_Yg__O&_nc_ht=scontent-ord5-1.xx&oh=00_AfA9wkDpaqeqWP-8tpwNX_O3rjlEm1aJk_w5y0XHMwPCIg&oe=64D3EBBB');*/
     background-position: center;
@@ -359,10 +358,7 @@ a:visited {
     margin-bottom: 50px;
 }
 
-.bottomlogo:hover {
-    transition: all 800ms ease-in-out;
-    opacity: 0.8;
-}
+
 
 .laststmt {
     background: -webkit-linear-gradient(var(--c10), var(--c30));
